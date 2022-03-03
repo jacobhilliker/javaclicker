@@ -373,7 +373,7 @@ public class GraphicsDemo extends Application {
 	
 	public class RadiusHandler implements ChangeListener<Number> {
 		
-		public void changed (ObservableValue<? extends Number> ov, Number oldVal, Number newVal) {
+		public void changed(ObservableValue<? extends Number> ov, Number oldVal, Number newVal) {
 			
 			radius = newVal.intValue();
 			
@@ -391,7 +391,7 @@ public class GraphicsDemo extends Application {
 	
 	public class ShrinkHandler implements ChangeListener<Number> {
 		
-		public void changed (ObservableValue<? extends Number> ov, Number oldVal, Number newVal) {
+		public void changed(ObservableValue<? extends Number> ov, Number oldVal, Number newVal) {
 			
 			shrinkSpeed = newVal.intValue();
 			
@@ -409,7 +409,7 @@ public class GraphicsDemo extends Application {
 	
 	public class SpawnHandler implements ChangeListener<Number> {
 		
-		public void changed (ObservableValue<? extends Number> ov, Number oldVal, Number newVal) {
+		public void changed(ObservableValue<? extends Number> ov, Number oldVal, Number newVal) {
 			
 			spawnRate = newVal.doubleValue();
 			
