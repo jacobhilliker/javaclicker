@@ -118,9 +118,13 @@ public class GraphicsDemo extends Application {
 	final int GAME_OVER_X = 100;
 	final int GAME_OVER_Y = 100;
 	
-	public void start(Stage myStage) {
+	public static void main(String[] args) {
+		launch(args);
+	}
+	
+	public void start(Stage stage) {
 		
-		window = myStage;
+		window = stage;
 		
 		/* ----------------
 			Main menu

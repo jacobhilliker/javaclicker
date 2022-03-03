@@ -9,8 +9,6 @@ public class Target extends Circle {
 	double centerY;
 	double radius;
 	
-	Pane game;
-	
 		public Target(double x, double y, double rad) {
 			
 			super(x, y, rad);

@@ -1,4 +1,4 @@
-import javafx.scene.control.Label;
+/*import javafx.scene.control.Label;
 import javafx.scene.control.Button;
 import javafx.scene.layout.VBox;
 import javafx.geometry.Pos;
@@ -41,10 +41,10 @@ public class MenuPane extends VBox{
 		
 		public void handle(ActionEvent e) {
 			
-			window.setScene();
+			GraphicsDemo.setOptionsScene();
 			
 		}
 		
 	}
 	
-}
+} */
